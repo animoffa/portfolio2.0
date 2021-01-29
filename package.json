@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "npm run build && node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
