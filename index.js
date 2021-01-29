@@ -54,4 +54,4 @@ app.post('/sendEmail', (req, res) => {
     });
 });
 
-app.listen(process.env.PORT || 80, () => console.log(`Server is running on 80 port!`));
+app.listen(process.env.PORT || 8080, () => console.log(`Server is running on 8080 port!`));
